@@ -4,7 +4,7 @@
 
 ![animation](https://i.stack.imgur.com/9xKOS.gif)
 
-[↻ replay animation](hhttps://i.stack.imgur.com/9xKOS.gif)
+[↻ replay animation](https://i.stack.imgur.com/9xKOS.gif)
 
 ---
 
