@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  SO-41198069
 //
-//  Copyright © 2017 Xavier Schott
+//  Copyright © 2017, 2018 Xavier Schott
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
 //  in the Software without restriction, including without limitation the rights
@@ -67,7 +67,8 @@ class ViewController: UIViewController {
         self.stackView.translatesAutoresizingMaskIntoConstraints = false
         self.backgroundView.addSubview(self.stackView)
 
-        self.topView.topAnchor.constraint(equalTo: self.topLayoutGuide.bottomAnchor).isActive = true
+        self.topView.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor).isActive = true
+
         self.topView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor).isActive = true
         self.topView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor).isActive = true
         self.topView.heightAnchor.constraint(equalToConstant: 46).isActive = true
